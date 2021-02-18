@@ -5,10 +5,12 @@ import React from 'react';
 import { Provider } from './scr/context/BlogContex';
 import ShowScreen from './scr/screens/ShowScreen';
 import CreateScreen from './scr/screens/CreateScreen';
+import EditScreen from './scr/screens/EditScreen';
 
 const navigator = createStackNavigator ({
   Index: IndexScreen,
   Show: ShowScreen,
+  Edit: EditScreen,
   Create: CreateScreen
 
 }, {
